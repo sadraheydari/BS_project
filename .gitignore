@@ -220,4 +220,8 @@ TSWLatexianTemp*
 *-tags.tex
 
 
+# ipython notebooks
+.ipynb_checkpoints/*
+
+
 Thumbs.db
