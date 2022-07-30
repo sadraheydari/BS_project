@@ -157,7 +157,7 @@ Path=styles/fonts/
 
 % ------------------------------ Images and Figures --------------------------
 
-\graphicspath{{figs/}}
+\graphicspath{{figures/}}
 \setlength{\intextsep}{0pt}  % for float boxes
 \renewcommand{\psscalebox}[1]{}  % for LaTeX Draw
 
@@ -166,16 +166,16 @@ Path=styles/fonts/
 	\centering #2 \end{wrapfigure}}
 
 \newcommand{\centerfig}[2]
-	{\centering\scalebox{#2}{\input{figs/#1}}}
+	{\centering\scalebox{#2}{\input{figures/#1}}}
 
 \newcommand{\fig}[3]
 	{\floatbox{#3}{\centerfig{#1}{#2}}}
 
 \newcommand{\centerimg}[2]
-	{\vspace{1em}\begin{center}\includegraphics[width=#2]{figs/#1}\end{center}\vspace{-1.5em}}
+	{\vspace{1em}\begin{center}\includegraphics[width=#2]{figures/#1}\end{center}\vspace{-1.5em}}
 
 \NewDocumentCommand{\img}{m m o}
 	{\begin{wrapfigure}{l}{\IfValueTF{#3}{#3}{#2}}
-	\centering\includegraphics[width=#2]{figs/#1}\end{wrapfigure}}
+	\centering\includegraphics[width=#2]{figures/#1}\end{wrapfigure}}
 
 
