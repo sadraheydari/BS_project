@@ -226,3 +226,4 @@ TSWLatexianTemp*
 
 Thumbs.db
 code/notebooks/.ipynb_checkpoints/*
+code/data/Matrix/*
